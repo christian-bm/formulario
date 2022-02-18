@@ -1,0 +1,38 @@
+html {
+	width: 100%;
+	height: 100%;
+}
+body {
+	margin: 0;
+	width: 100%;
+	height: 100%;
+	background-image: radial-gradient(#3e667ae0 5%, #396174 50%, #113141 100%);
+	background-repeat: no-repeat;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+		"Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+		sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+#root,
+.div_dashboard {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.div_dashboard button {
+	width: 175px;
+	height: 30px;
+	border: black solid 1px;
+	border-radius: 8px;
+}
+.div_dashboard button:hover{
+  transform: scale(1.05);
+}
+code {
+	font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+		monospace;
+}
